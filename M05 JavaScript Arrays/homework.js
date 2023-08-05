@@ -52,7 +52,7 @@ function dePalabrasAFrase(palabras) {
    // con un espacio entre cada palabra.
    // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
    // Tu código:
-   return palabras.join(' ')
+   return palabras.join(' ');
 
 }
 
@@ -140,9 +140,8 @@ function diaDeLaSemana(numeroDeDia) {
    if (numeroDeDia === 1 || numeroDeDia === 7) {
       return "Es fin de semana";
    } else {
-      return "Es dia laboral"
+      return "Es dia laboral";
    }
-
 }
 
 function empiezaConNueve(num) {
@@ -225,7 +224,9 @@ function breakStatement(num) {
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
    var array = [];
+
    var suma = num;
+   
    for (var i = 0; i < 10; i++){
       suma = suma + 2;
 
