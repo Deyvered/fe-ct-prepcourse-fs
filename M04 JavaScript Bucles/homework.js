@@ -7,9 +7,9 @@ function obtenerMayor(x, y) {
    // Tu código:
    if (x > y){
       return x;
-   }else if (x < y){
+   } else if (x < y){
       return y;
-   }else {
+   } else {
       return x || y;
    }
 }
@@ -21,8 +21,7 @@ function mayoriaDeEdad(edad) {
    // Tu código:
    if(edad >= 18){
       return "Allowed";
-   }
-   else {
+   }else {
       return "Not allowed";
    }
 }
@@ -51,9 +50,9 @@ function saludo(idioma) {
    // Si "idioma" no es ninguno de los anteriores o es `undefined` devuelve "Hola!".
    // Tu código:
    if (idioma === "aleman") {
-      return "Guten Tag";
+      return "Guten Tag!";
    } else if (idioma === "mandarin") {
-      return "Ni Hao";
+      return "Ni Hao!";
    } else if (idioma === "ingles") {
       return "Hello!";
    } else {
