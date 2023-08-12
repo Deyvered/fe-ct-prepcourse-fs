@@ -60,7 +60,7 @@ function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar true si está, o false si no está.
    // Tu código:
-   for(var i = 0; i < array.lenth; i++) {
+   for(var i = 0; i < array.length; i++) {
       if (array[i] === elemento) {
          return true;
       }
@@ -224,23 +224,21 @@ function breakStatement(num) {
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
    var array = [];
-
    var suma = num;
-   
-   for (var i = 0; i < 10; i++){
+   for (var i = 0; i < 10; i++) {
       suma = suma + 2;
-
       if (suma === i) break;
       else {
          array.push(suma);
       }
    }
-   if (i < 10){
-      return 'Se interrumpio la ejecucion';
+   if(i < 10) {
+      return 'Se interrumpió la ejecución';
    } else {
       return array;
+     }
    }
-}
+
 
 function continueStatement(num) {
    // Iterar en un bucle aumentando en 2 el número recibido hasta un límite de 10 veces.
