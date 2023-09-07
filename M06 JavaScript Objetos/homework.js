@@ -28,6 +28,9 @@ function nuevoUsuario(nombre, email, password) {
    }
    return nuevoUsuario;
 }
+    
+
+
 
 function agregarPropiedad(objeto, propiedad) {
    // Recibirás un objeto por parámetro.

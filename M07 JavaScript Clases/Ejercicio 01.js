@@ -11,16 +11,17 @@ function crearUsuario() {
    // Retornar la clase.
    // Tu código:
    function Usuario(usuario, nombre, email, password) {
-      this.Usuario = usuario;
+      this.usuario = usuario;
       this.nombre = nombre;
       this.email = email;
       this.password = password;
    }
 
-   Usuario.prototype.saludar = function() {
+   Usuario.prototype.saludar = function(){
       return 'Hola, mi nombre es ' + this.nombre;
-   };
+   }
    return Usuario;
+
 }
 
 function agregarMetodoPrototype(Usuario) {
